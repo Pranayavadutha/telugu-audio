@@ -1,0 +1,37 @@
+
+@font-face{font-family:"Noto Sans Telugu";src:url(../fonts/NotoSansTelugu-Regular.ttf) format("truetype");font-display:swap}
+@font-face{font-family:Nunito;src:url(../fonts/Nunito-Regular.ttf) format("truetype");font-weight:400;font-display:swap}
+@font-face{font-family:Nunito;src:url(../fonts/Nunito-ExtraBold.ttf) format("truetype");font-weight:800;font-display:swap}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:#FFF9F2;color:#222222;font-family:Nunito,system-ui,sans-serif;min-height:100vh;display:flex;flex-direction:column;align-items:center}
+main{width:100%;max-width:480px;padding:20px 18px 28px;flex:1;display:flex;flex-direction:column;align-items:center;gap:14px}
+.brand{font-weight:800;color:#E8833A;letter-spacing:.02em;font-size:18px;margin-top:4px}
+.card{width:100%;background:#fff;border-radius:24px;box-shadow:0 2px 0 #f0e4d6,0 8px 24px rgba(232,131,58,.08);padding:18px;text-align:center}
+.letter{font-family:"Noto Sans Telugu",sans-serif;font-size:min(42vw,190px);line-height:1.1;margin:0}
+.tr{font-size:28px;font-weight:800;margin:0}
+.say{font-size:16px;color:#666;margin:2px 0 0}
+.btn{appearance:none;border:0;width:100%;min-height:72px;border-radius:20px;font:800 22px Nunito,system-ui,sans-serif;color:#fff;display:flex;align-items:center;justify-content:center;gap:12px;cursor:pointer;touch-action:manipulation;transition:transform .08s}
+.btn:active{transform:scale(.97)}
+.btn .ic{font-size:30px}
+.b1{background:#E8833A}
+.b2{background:#2A9D8F}
+.btn.playing{filter:brightness(.92);box-shadow:inset 0 0 0 4px rgba(255,255,255,.6)}
+.word{display:flex;align-items:center;gap:14px;justify-content:center;margin-top:12px}
+.word img{width:110px;height:auto;border-radius:12px;background:#fff}
+.wt{font-family:"Noto Sans Telugu",sans-serif;font-size:40px;line-height:1.4}
+.wm{font-size:17px;color:#555}
+.navwrap{width:100%}
+.navwrap h3{margin:10px 0 6px;font-size:15px;color:#888;text-align:center;font-weight:800}
+.nav{display:flex;flex-wrap:wrap;gap:6px;justify-content:center}
+.pn{display:flex;gap:10px;width:100%}
+.pn a{flex:1;text-align:center;text-decoration:none;font-weight:800;font-size:18px;color:#2A9D8F;background:#fff;border-radius:16px;padding:14px 8px;box-shadow:0 1px 0 #eadccb}
+.rare{font-size:16px;color:#666;margin:6px 0 0}
+.nav a{font-family:"Noto Sans Telugu",sans-serif;font-size:24px;text-decoration:none;color:#222222;background:#fff;border-radius:14px;min-width:48px;min-height:48px;display:flex;align-items:center;justify-content:center;box-shadow:0 1px 0 #eadccb}
+.nav a.on{background:#E8833A;color:#fff}
+footer{padding:14px 18px 24px;text-align:center;font-size:15px;color:#777}
+footer a{color:#2A9D8F;font-weight:800;text-decoration:none;font-size:17px}
+p.lead{font-size:18px;line-height:1.5;margin:4px 0 0}
+.more{display:block;margin-top:12px;text-align:center;text-decoration:none;color:#222222;background:#FFF0DF;border:2px dashed #E8833A;border-radius:16px;padding:12px;font-size:16px}
+.more b{color:#E8833A}
+a.btn{text-decoration:none}
